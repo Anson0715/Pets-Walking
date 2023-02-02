@@ -8,6 +8,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:text="The Pets Store module is coming soon!"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:background="@color/teal_200"
+        android:layout_gravity="center"
+        android:gravity="center"/>
 
 </FrameLayout>
