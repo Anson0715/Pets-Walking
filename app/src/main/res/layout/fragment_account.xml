@@ -97,7 +97,7 @@
             android:layout_height="wrap_content"/>
 
         <Button
-            android:id="@+id/btn_reset_password"
+            android:id="@+id/btn_login"
             android:text="LOGIN"
             android:textSize="18sp"
             android:gravity="center"
@@ -105,19 +105,6 @@
             android:layout_marginRight="50dp"
             android:layout_marginLeft="50dp"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-
-        <TextView
-            android:id="@+id/tv_split_line"
-            android:text="----------- OR -----------"
-            android:textSize="18sp"
-            android:textStyle="italic"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginLeft="50dp"
-            android:layout_gravity="center"
-            android:textColor="@color/teal_700"
-            android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
 
         <LinearLayout
@@ -148,6 +135,27 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"/>
         </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_split_line2"
+            android:text="----------- or login with -----------"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center"
+            android:textColor="@color/teal_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/google_login"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_margin="20dp"
+            android:src="@drawable/google"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 
